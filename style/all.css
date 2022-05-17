@@ -29,6 +29,11 @@
   flex-direction: column;
   justify-content: flex-end;
   overflow: hidden;
+  transition: transform 0.5s linear 0.05s;
+}
+
+.all__item:hover {
+  transform: scale(1.1);
 }
 
 .all__item--top {

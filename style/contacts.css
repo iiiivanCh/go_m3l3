@@ -35,6 +35,11 @@
   line-height: 28px;
 }
 
+.footer__text:hover {
+  color: #EADEED;
+  transition: 0.3s;
+}
+
 .footer__item--one {
   margin-bottom: 45px;
   background-image: url("../img/footer-location.svg");
