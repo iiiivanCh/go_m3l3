@@ -1,0 +1,94 @@
+.about {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.about__title {
+  margin-bottom: 56px;
+  margin-left: 8px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about__block2 {
+  display: block;
+}
+
+.about__text {
+  margin-bottom: 29px;
+  line-height: 28px;
+}
+
+.about__text--end {
+  margin-bottom: 77px;
+}
+
+.about__q {
+  margin: 0;
+}
+
+.about__q-text {
+  position: relative;
+  margin-left: 55px;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.about__q-text:last-of-type {
+  margin-bottom: 40px;
+}
+
+.about__q-text--little::before {
+  content: '\201C';
+  position: absolute;
+  top: -7px;
+  left: -55px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #6C0287;
+}
+
+.about__q-text--little::after {
+  content: '\201D';
+  position: absolute;
+  bottom: -49px;
+  right: 107px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #6C0287;
+}
+
+.about__signature {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.about__img {
+  margin-right: 30px;
+}
+
+.about__foto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  object-fit: cover;
+  object-position: 0 -9px;
+}
+
+.about__cite {
+
+  width: 240px;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 28px;
+}

@@ -1,0 +1,133 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 10px;
+  background: linear-gradient(180deg, #1B1A1B 0%, #370A37 100%);
+}
+
+.footer__title {
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer__block-top {
+  margin-bottom: 162px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contacts {
+  margin-bottom: 34px;
+}
+
+.footer__item {
+  padding-left: 60px;
+  background-size: 32px;
+  background-repeat: no-repeat;
+}
+
+.footer__text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.footer__item--one {
+  margin-bottom: 45px;
+  background-image: url("../img/footer-location.svg");
+  background-position: 0 12px;
+}
+
+.footer__item--two {
+  margin-bottom: 15px;
+  background-image: url("../img/footer-phone.svg");
+  background-position: 0 -4px;
+}
+
+.footer__item--three {
+  background-image: url("../img/footer-envelope.svg");
+  background-position: 0 -5px;
+}
+
+.footer__social {
+  display: flex;
+  list-style: none;
+}
+
+.footer__social-li:not(:last-child) {
+  margin-right: 26px;
+}
+
+.footer__social-li {
+  width: 50px;
+  height: 50px;
+}
+
+.footer__social-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+}
+
+.footer__social-item:hover svg path {
+  fill: #EADEED;
+}
+
+.footer__social-item:focus svg path {
+  fill: #EADEED;
+  /* outline: 1px solid #CD06FF; */
+}
+
+.footer__social-item:focus {
+  outline: 1px solid #CD06FF;
+}
+
+.footer__social-item:active svg path {
+  fill: #CD06FF;
+}
+
+/* 
+.footer__social-item--one {
+  background-image: url('../img/footer-vk.svg');
+} */
+/* 
+.footer__social-item--two {
+  background-image: url('../img/footer-telegram.svg');
+} */
+
+.footer__block-end {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__block4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.footer__p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer__a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  outline: none;
+}
+
+.footer__a:hover {
+  color: #EADEED;
+}
+
+.footer__a:focus {
+  outline: 1px solid #CD06FF;
+}

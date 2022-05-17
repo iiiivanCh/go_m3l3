@@ -1,0 +1,57 @@
+.halls {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.halls__title {
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.halls__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.halls__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 580px;
+  height: 349px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  background-position: center;
+}
+
+.halls__item--vibes {
+  background-image: url(../img/s3i1.jpg);
+  background-size: cover;
+}
+
+.halls__item--star {
+  background-image: url(../img/s3i2.jpg);
+  background-size: cover;
+}
+
+.halls__item--west {
+  background-image: url(../img/s3i3.jpg);
+  background-size: cover;
+}
+
+.halls__item--neon {
+  background-image: url(../img/s3i4.jpg);
+  background-size: cover;
+}
+
+.item-text {
+  width: 300px;
+}
