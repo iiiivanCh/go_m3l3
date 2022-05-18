@@ -1,6 +1,6 @@
 .all {
   padding-top: 35px;
-  padding-bottom: 50px;
+  padding-bottom: 45px;
 }
 
 .all__title {
@@ -15,7 +15,9 @@
 }
 
 .all__list {
+  height: 570px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   column-gap: 20px;
   row-gap: 40px;
@@ -43,31 +45,38 @@
 .all__item-img1 {
   background-image: url("../img/s2i1.jpg");
   background-size: cover;
+  background-position-x: -13px;
 }
 
 .all__item-img2 {
+  margin-top: 70px;
   background-image: url("../img/s2i2.jpg");
   background-size: cover;
+  background-position-y: -10px;
 }
 
 .all__item-img3 {
   background-image: url("../img/s2i3.jpg");
   background-size: cover;
+  background-position-y: -13px;
 }
 
 .all__item-img4 {
   background-image: url("../img/s2i4.jpg");
   background-size: cover;
+  background-position-x: -17px;
 }
 
 .all__item-img5 {
   background-image: url("../img/s2i5.jpg");
   background-size: cover;
+  background-position: 0 -91px;
 }
 
 .all__item-img6 {
   background-image: url("../img/s2i6.jpg");
   background-size: cover;
+  background-position-y: -30px;
 }
 
 .all__item-text {

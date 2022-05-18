@@ -15,8 +15,8 @@ body {
   font-family: Arial, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  color: #ffffff;
-  background: #1B1A1B;
+  color: var(--color-text-1);
+  background: var(--color-background-1);
 }
 
 img {
